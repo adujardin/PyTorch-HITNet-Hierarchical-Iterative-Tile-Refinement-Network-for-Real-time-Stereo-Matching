@@ -218,7 +218,7 @@ def train_sample(sample, compute_metrics=False):
 
     if compute_metrics:
         with torch.no_grad():
-            image_outputs["errormap"] = [disp_error_image_func()(disp_est.squeeze(1), disp_gt.squeeze(1)) for disp_est in prop_disp_pyramid]
+            image_outputs["errormap"] = [disp_error_image_func(disp_est.squeeze(1), disp_gt.squeeze(1)) for disp_est in prop_disp_pyramid]
             scalar_outputs["EPE"] = [EPE_metric(disp_est.squeeze(1), disp_gt.squeeze(1), mask.squeeze(1)) for disp_est in prop_disp_pyramid]
             scalar_outputs["D1"] = [D1_metric(disp_est.squeeze(1), disp_gt.squeeze(1), mask.squeeze(1)) for disp_est in prop_disp_pyramid]
             scalar_outputs["Thres1"] = [Thres_metric(disp_est.squeeze(1), disp_gt.squeeze(1), mask.squeeze(1), 1.0) for disp_est in prop_disp_pyramid]

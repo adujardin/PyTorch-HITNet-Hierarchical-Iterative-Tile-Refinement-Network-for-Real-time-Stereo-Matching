@@ -18,6 +18,7 @@ def check_shape_for_metric_computation(*vars):
         assert len(var.size()) == 3
         assert var.size() == vars[0].size()
 
+
 # a wrapper to compute metrics for each image individually
 def compute_metric_for_each_image(metric_func):
     def wrapper(D_ests, D_gts, masks, *nargs):
@@ -38,7 +39,9 @@ def compute_metric_for_each_image(metric_func):
             return torch.tensor(0, dtype=torch.float32, device=D_gts.device)
         else:
             return torch.stack(results).mean()
+
     return wrapper
+
 
 @make_nograd_func
 @compute_metric_for_each_image
@@ -48,6 +51,7 @@ def D1_metric(D_est, D_gt, mask):
     err_mask = (E > 3) & (E / D_gt.abs() > 0.05)
     return torch.mean(err_mask.float())
 
+
 @make_nograd_func
 @compute_metric_for_each_image
 def Thres_metric(D_est, D_gt, mask, thres):
@@ -56,6 +60,7 @@ def Thres_metric(D_est, D_gt, mask, thres):
     E = torch.abs(D_gt - D_est)
     err_mask = E > thres
     return torch.mean(err_mask.float())
+
 
 # NOTE: please do not use this to build up training loss
 @make_nograd_func
