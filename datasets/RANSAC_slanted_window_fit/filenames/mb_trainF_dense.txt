@@ -1,0 +1,15 @@
+middlebury_dense_trainF/Playtable/dense/disp0GT.pfm
+middlebury_dense_trainF/PlaytableP/dense/disp0GT.pfm
+middlebury_dense_trainF/ArtL/dense/disp0GT.pfm
+middlebury_dense_trainF/PianoL/dense/disp0GT.pfm
+middlebury_dense_trainF/Shelves/dense/disp0GT.pfm
+middlebury_dense_trainF/Recycle/dense/disp0GT.pfm
+middlebury_dense_trainF/Pipes/dense/disp0GT.pfm
+middlebury_dense_trainF/Adirondack/dense/disp0GT.pfm
+middlebury_dense_trainF/Piano/dense/disp0GT.pfm
+middlebury_dense_trainF/Playroom/dense/disp0GT.pfm
+middlebury_dense_trainF/Vintage/dense/disp0GT.pfm
+middlebury_dense_trainF/MotorcycleE/dense/disp0GT.pfm
+middlebury_dense_trainF/Motorcycle/dense/disp0GT.pfm
+middlebury_dense_trainF/Teddy/dense/disp0GT.pfm
+middlebury_dense_trainF/Jadeplant/dense/disp0GT.pfm

@@ -1,0 +1,15 @@
+trainingH/Playtable/disp0GT.pfm
+trainingH/PlaytableP/disp0GT.pfm
+trainingH/ArtL/disp0GT.pfm
+trainingH/PianoL/disp0GT.pfm
+trainingH/Shelves/disp0GT.pfm
+trainingH/Recycle/disp0GT.pfm
+trainingH/Pipes/disp0GT.pfm
+trainingH/Adirondack/disp0GT.pfm
+trainingH/Piano/disp0GT.pfm
+trainingH/Playroom/disp0GT.pfm
+trainingH/Vintage/disp0GT.pfm
+trainingH/MotorcycleE/disp0GT.pfm
+trainingH/Motorcycle/disp0GT.pfm
+trainingH/Teddy/disp0GT.pfm
+trainingH/Jadeplant/disp0GT.pfm

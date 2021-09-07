@@ -17,4 +17,4 @@ Python = 3.6.8
 CUDA10
 
 # Slant Ground-truth
-Slant parameter GT is [here](https://drive.google.com/file/d/1GfjWAI6icnX2aSYBl4dujun0sLacMQli/view?usp=sharing), which is generated using least square fit and RANSAC. The code for slant parameter generation is [here](https://drive.google.com/file/d/1dYekuTIG0QZ4ozfDFXslA-VeV3VZE7LG/view?usp=sharing).
+Slant parameter GT is [here](https://drive.google.com/file/d/1GfjWAI6icnX2aSYBl4dujun0sLacMQli/view?usp=sharing), which is generated using least square fit and RANSAC. The code for slant parameter generation is [here](https://drive.google.com/file/d/1dYekuTIG0QZ4ozfDFXslA-VeV3VZE7LG/view?usp=sharing) or in [datasets/RANSAC_slanted_window_fit](datasets/RANSAC_slanted_window_fit).
